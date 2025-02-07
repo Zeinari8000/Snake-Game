@@ -1,0 +1,28 @@
+.board {
+  position: relative;
+  margin: 0 auto;
+  background-color: #333;
+  border: 2px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.snake-segment {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: limegreen;
+}
+
+.food {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.game-over {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+}
